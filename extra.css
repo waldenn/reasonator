@@ -1,0 +1,51 @@
+body {
+  background: #fbfaf9;
+  font-family: 'Quicksand', sans-serif !important;
+  overflow: none;
+  /*
+  width:100vw;
+  */
+  margin:0;
+  padding:0;
+}
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
+  color: #000;
+}
+
+.navbar-nav > li {
+  float: right !important;
+}
+
+#language_select, #find {
+  margin: 1em;
+}
+
+/* conzept-related menu buttons */
+
+#wikipedia-menu {
+  float: right;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.dropbtn {
+  background-color: inherit;
+  color: black;
+  padding: 1em;
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#wikipedia-menu .dropbtn:hover {
+  background: #ee6e7396;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: inherit;
+  color: inherit;
+}
